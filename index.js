@@ -45,6 +45,7 @@ for(let i=0; i<arr.length;i++){
       newLine();
       }else{
       console.log("thats not the correct🤕 ans correct ans is " + arr[i].ans);
+      console.log("your current score: " + score);
       newLine();
     }
     
