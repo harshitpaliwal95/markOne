@@ -5,20 +5,32 @@ const chalk = require('chalk');
 //default value
 let score = 0;
 
+const wrong = chalk.white.bgRed.bold('wrong');
+
+
 
 // function for new line
 function newLine(){
   console.log("\n");
 }
-
-// guide
+// function for intro
+function intro(){
 console.log(chalk.white.bgBlack.bold("hello there this is my first CLI app. \nguess how much you know me 😁 \neach correct guess gives you one point"));
-
-newLine();
+}
 
 let userName = readlineSync.question("what's your name: ");
 
-console.log("hi " + userName + "\nlet's get started");
+if(userName.length > 0){
+  console.log("hi " + userName + "\nlet's get started");
+  newLine();
+  // guide
+  intro();
+}else{
+  console.log("Hello Mr anonymous \nlet's get started");
+  newLine();
+  // guide
+  intro();
+}
 
 newLine();
 
@@ -44,7 +56,7 @@ for(let i=0; i<arr.length;i++){
       console.log("your current score: " + score);
       newLine();
       }else{
-      console.log("thats not the correct🤕 ans correct ans is " + arr[i].ans);
+      console.log(`that's ${wrong}🤕 ans correct ans is ` + arr[i].ans);
       console.log("your current score: " + score);
       newLine();
     }
