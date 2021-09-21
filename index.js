@@ -29,7 +29,8 @@ let arr = [
   {que:"2. Whom i like the most dogs/cats: ",ans:"both"},
   {que:"3. Do i have a girlfriend yes/no: ", ans:"no"},
   {que:"4. Which anime is my fev: ",ans:"naruto"},
-  {que:"5. My fev hobby: ",ans:"swimming"}
+  {que:"5. My fev hobby: ",ans:"swimming"},
+  {que:"6. Do i like marvel yes/no "ans:"no"}
 ];
 
 
@@ -50,7 +51,8 @@ for(let i=0; i<arr.length;i++){
   }
   else{
     i--;
-    console.log("Please enter an answer.")
+    console.log("Please enter an answer.");
+    newLine();
   }
 }
 
