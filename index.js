@@ -30,7 +30,7 @@ let arr = [
   {que:"3. Do i have a girlfriend yes/no: ", ans:"no"},
   {que:"4. Which anime is my fev: ",ans:"naruto"},
   {que:"5. My fev hobby: ",ans:"swimming"},
-  {que:"6. Do i like marvel yes/no "ans:"no"}
+  {que:"6. Do i like marvel yes/no ",ans:"no"}
 ];
 
 
