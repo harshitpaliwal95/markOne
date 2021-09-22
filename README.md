@@ -1,6 +1,6 @@
 # markOne
 my first Cli app 
-a quize game 
+a quiz game 
 <br>
 do you know me 
 <br>
