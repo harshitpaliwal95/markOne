@@ -35,7 +35,7 @@ if(userName.length > 0){
 newLine();
 
 
-// destructuring 
+
 let arr = [
   {que:"1. What is my city name: ",ans:"udaipur"},
   {que:"2. Whom i like the most dogs/cats: ",ans:"both"},
